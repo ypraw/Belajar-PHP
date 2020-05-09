@@ -4,8 +4,53 @@
 
 # Panduan Pengguna
 
-- Clone repo ini kedalam local repository (komputer pribadi anda)
-- buat folder dengan nama anda, kemudian didalamnya (subfolder), buat kembali folder disesuaikan latihan yang anda buat,
+## Fork repo ini, dengan mengklik tombol fork pada pojok atas halaman repo ini
 
-  - [Folder peserta](/Yunindyo%20Prabowo/)
-  - [Folder isi](Yunindyo%20Prabowo/Pertemuan%201/Hello.MD)
+![ss](/Yunindyo%20Prabowo/asset/Screenshot_20200509_220428.png)
+
+## Clone repo yang telah anda buat, caranya masuk kedalam halaman repostory anda kemduian pada klik tombol clone, salit alamat linknya, dan buka terminal atau cmd lalu ketikkan perintah berikut,
+
+sebagai contoh:
+
+```bash
+ https://github.com/ypraw/Belajar-PHP.git
+```
+
+ganti `ypraw` dengan username yang anda gunakan.
+
+buat folder menggunakan nama anda, dan di dalamnya isikan dengan materi yang telah anda selesaikan.
+
+```text
+tips: Gunakan subfolder untuk membedakan antara latihan satu dengan latihan 2 dst
+    - [folder nama]Yunindyo Prabowo
+        - Folder latihan 1
+             * isi file.php
+        - Folder latihan 1
+             * isi file.php
+```
+
+## Lakukan perubahan sesuai dengan keinginan anda dan commit perubahan tersebut
+
+tambah file yang telah anda buat.
+
+```bash
+git add namafile
+```
+
+contoh
+
+```bash
+git add latihan5.php
+```
+
+tambahkan pesan commit.
+
+```bash
+git commit -m "Menambah modul latihan5"
+```
+
+push ke github.
+
+```bash
+git push origin master
+```
