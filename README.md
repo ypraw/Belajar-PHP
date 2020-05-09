@@ -18,6 +18,12 @@ sebagai contoh:
 
 ganti `ypraw` dengan username yang anda gunakan.
 
+masuk kedalam directory hasil clone yang anda buat, ketikkan
+
+```bash
+cd Belajar-PHP
+```
+
 buat folder menggunakan nama anda, dan di dalamnya isikan dengan materi yang telah anda selesaikan.
 
 ```text
