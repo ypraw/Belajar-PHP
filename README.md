@@ -54,3 +54,9 @@ push ke github.
 ```bash
 git push origin master
 ```
+
+## Submit and pull request
+
+Setelah melakukan push ke repository anda, kemudian dilanjutkan untuk pull request pada reposiory yang telah saya buat.
+
+Tombol ini akan otomatis muncul ketika anda melakukan perubahan pada kode sumber yang telah anda fork.
