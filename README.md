@@ -8,7 +8,7 @@ Repository ini merupakan repository untuk menampung hasil kegiatan peserta pembe
 
 ![ss](/Yunindyo%20Prabowo/asset/Screenshot_20200509_220428.png)
 
-## Clone repo yang telah anda buat, caranya masuk kedalam halaman repostory anda kemduian pada klik tombol clone, salit alamat linknya, dan buka terminal atau cmd lalu ketikkan perintah berikut,
+## Clone repo yang telah anda buat, caranya masuk kedalam halaman repostory anda kemudian pada klik tombol clone, salin alamat linknya, dan buka terminal atau cmd lalu ketikkan perintah berikut,
 
 sebagai contoh:
 
