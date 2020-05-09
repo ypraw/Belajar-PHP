@@ -66,3 +66,31 @@ git push origin master
 Setelah melakukan push ke repository anda, kemudian dilanjutkan untuk pull request pada reposiory yang telah saya buat.
 
 Tombol ini akan otomatis muncul ketika anda melakukan perubahan pada kode sumber yang telah anda fork.
+
+## Sync forked repo to Original Repo
+
+tambahkan url repo utama sebagai remote upstream, dengan perintah berikut:
+
+```bash
+git remote add upstream https://github.com/ypraw/Belajar-PHP.git
+```
+
+check remote upstream, dengan syntaks berikut
+
+```bash
+git remove -v
+```
+
+## Merging original repo into your fork repo
+
+selanjutnya, fetch data dari original repo ke dalam repo lokal kita dengan perintah,
+
+```bash
+git fetch upstream
+```
+
+lalu push data ke repo fork yang berada di github dengan perintah berikut,
+
+```bash
+git push origin master
+```
