@@ -13,7 +13,7 @@ Repository ini merupakan repository untuk menampung hasil kegiatan peserta pembe
 sebagai contoh:
 
 ```bash
- https://github.com/ypraw/Belajar-PHP.git
+ git clone https://github.com/ypraw/Belajar-PHP.git
 ```
 
 ganti `ypraw` dengan username yang anda gunakan.
