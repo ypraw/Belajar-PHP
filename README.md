@@ -1,6 +1,6 @@
 # BELAJAR PHP
 
-    Repository ini merupakan repository untuk menampung hasil kegiatan peserta pembelajaran php dasar yang di inisiasi oleh rekan-rekan dari grup computer science pada whatsapp.
+Repository ini merupakan repository untuk menampung hasil kegiatan peserta pembelajaran php dasar yang di inisiasi oleh rekan-rekan dari grup computer science pada whatsapp.
 
 # Panduan Pengguna
 
