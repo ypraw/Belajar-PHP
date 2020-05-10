@@ -89,7 +89,13 @@ selanjutnya, fetch data dari original repo ke dalam repo lokal kita dengan perin
 git fetch upstream
 ```
 
-lalu push data ke repo fork yang berada di github dengan perintah berikut,
+dilanjutkan dengan me-merge repo lokal dengan perubahan dari repo sumber utama, dengan,
+
+```bash
+git merge upstream/master
+```
+
+dan terakhir push data ke repo fork yang berada di github dengan perintah berikut,
 
 ```bash
 git push origin master
