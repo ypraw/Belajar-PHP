@@ -55,24 +55,25 @@
 
 <?php
 if(isset($_POST['input'])){
-if(empty($_POST["name"])) {
-    $name = " Silahkan masukan nama anda !!!";
-}else{
-    $name = ($_POST["name"]);
-    if(!preg_match("/^[a-zA-Z]*$/", $name)){
-    $nameErr = "Only letters and white space allowed";
+    if(empty($_POST["name"])) {
+        $name = " Silahkan masukan nama anda !!!";
+    }else{
+        $name = ($_POST["name"]);
+        if(!preg_match("/^[a-zA-Z]*$/", $name)){
+        $name = "Only letters and white space allowed";
+        }
     }
-}
 
-if(empty($_POST["email"])) {
-    $email = " Silahkan masukan email anda !!!";
-}else{
-    $name = ($_POST["name"]);
-    if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-        $emailErr = "Invalid email format";
+    if(empty($_POST["email"])) {
+        $email = " Silahkan masukan email anda !!!";
+    }else{
+        $email = ($_POST["email"]);
+        if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            $email = "Invalid email format";
+        }
     }
-}
-echo "Nama anda : <b>$name</b><br/><br/>";
-echo "E-mail anda : <b>$email</b>";
+
+    echo "Nama anda : <b>$name</b><br/><br/>";
+    echo "E-mail anda : <b>$email</b>";
 
 }
