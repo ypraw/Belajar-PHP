@@ -1,0 +1,2 @@
+Ujicoba Write File.
+Belajar PHP dari NULL
