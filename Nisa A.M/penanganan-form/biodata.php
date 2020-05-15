@@ -22,7 +22,7 @@
                 $nameErr = "Name is required";
             }else{
                 $name = ($_POST["name"]);
-                if(!preg_match("/^[a-zA-Z]*$/", $name)){
+                if(!preg_match("/^[a-zA-Z ]*$/", $name)){
                     $nameErr = "Only letters and white space allowed";
                 }
             }

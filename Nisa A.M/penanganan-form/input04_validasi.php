@@ -21,7 +21,7 @@
                 $nameErr = "Name is required";
             }else{
                 $name  = ($_POST["name"]);
-                if(!preg_match("/^[a-zA-Z]*$/", $name)){
+                if(!preg_match("/^[a-zA-Z ]*$/", $name)){
                     $nameErr = "Only letters and white space allowed";
                 }
             }
@@ -59,7 +59,7 @@ if(isset($_POST['input'])){
         $name = " Silahkan masukan nama anda !!!";
     }else{
         $name = ($_POST["name"]);
-        if(!preg_match("/^[a-zA-Z]*$/", $name)){
+        if(!preg_match("/^[a-zA-Z ]*$/", $name)){
         $name = "Only letters and white space allowed";
         }
     }
